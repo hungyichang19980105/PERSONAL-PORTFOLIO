@@ -9,7 +9,7 @@ const Nav = () => {
       <Link
         onClick={() => setActive("#")}
         className={active === "#" ? "active" : "links"}
-        to="/about"
+        to="/"
       >
         About
       </Link>
