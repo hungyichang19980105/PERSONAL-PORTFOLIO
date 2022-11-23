@@ -1,0 +1,33 @@
+.project__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+}
+
+.project__item {
+    background-color: #895055;
+    padding: 1.2rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: all 400ms ease;
+}
+
+.project__item:hover {
+    border-color: #895055;
+    background: transparent;
+}
+
+.project__img {
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.project__item h3 {
+    margin: 1.2rem 0 2rem;
+}
+
+.project__item-github {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}

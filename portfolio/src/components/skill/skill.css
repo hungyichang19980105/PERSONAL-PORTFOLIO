@@ -1,0 +1,42 @@
+.skill__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    
+}
+
+.skill__container > div {
+    background-color: #895055;
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: all 400ms ease
+}
+
+.skill__container > div:hover{
+    background: transparent;
+    border-color: #895055;
+    cursor: default;
+}
+
+.skill__container > div h3{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #fffcf5
+}
+
+.skill__details {
+    display: flex;
+    gap: 1rem;
+}
+
+.skill__details-icon {
+    color: #fffcf5;
+    margin-top: 6px;
+}
+
+.skill__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}

@@ -1,0 +1,23 @@
+.contact__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12%;
+}
+
+.contact__option {
+    background: #895055;
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: all 400ms ease;
+}
+
+.contact__option:hover{
+    background: transparent;
+    border-color: #895055;
+}
+
+.contact__option-icon {
+    font-size: 1.5rem;
+}

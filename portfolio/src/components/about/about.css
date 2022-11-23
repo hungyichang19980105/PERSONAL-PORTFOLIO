@@ -1,0 +1,23 @@
+.about__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.about__container p {
+    width: 60%;
+}
+
+.about__links {
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem
+}
+
+.orange{
+    color: orange
+}

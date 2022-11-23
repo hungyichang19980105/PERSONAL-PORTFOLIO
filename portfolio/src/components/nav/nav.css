@@ -1,0 +1,16 @@
+nav {
+    display: flex;
+    column-gap: 30px;
+    font-size: 1.2rem;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.links:hover{
+    color: orange
+}
+
+.active {
+    color: orange
+}
