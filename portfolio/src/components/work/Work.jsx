@@ -97,25 +97,6 @@ const Work = () => {
             <br /> − Developed application code and unit testing with Jest.
           </p>
         </article>
-        <article className="work">
-          <h2>Wayfair</h2>
-          <div className="work__title">
-            <h5>Software Engineer</h5>
-            <h5>Apr 2017 - Oct 2017</h5>
-          </div>
-          <p>
-            <br />− Built a fraud detection web application to display user’s
-            risk score and their shopping history by HTML, CSS, React, and
-            JavaScript. <br />− Wrote SQL to extract the data from Google Big
-            Query (GCP) and clean the data before import it into the model.{" "}
-            <br />− Used Python to build fraud detection models with LightGBM
-            and decision tree methods that achieve an accuracy of 91%.
-            <br /> − Utilized Python Flask to retrieve data from the backend to
-            pass in the model and display the user information on the website.
-            <br /> − Used webpack and babel for bundling. <br />− Made
-            responsive website by using Bootstrap and CSS media queries
-          </p>
-        </article>
       </div>
     </section>
   );
